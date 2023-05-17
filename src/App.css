@@ -1,0 +1,54 @@
+
+
+
+
+
+.App{
+  display: flex;
+  /* flex-direction: colum; */
+  justify-content: center;
+  padding: 100px;
+  background-image: url('/src/image/img-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  font-weight:bold;
+  display: flex;
+  margin-bottom: 5px;
+  color: rgb(216, 193, 193);
+
+}
+input[type='text'],
+input[type='email']{
+  display:block ;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.434;
+  color: #555;
+  background-color: white;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+}
+button{
+  margin-top: 30px;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: rgb(55, 52, 52);
+  
+}
+
+
