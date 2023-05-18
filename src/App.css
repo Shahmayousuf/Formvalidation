@@ -27,7 +27,8 @@ label{
 
 }
 input[type='text'],
-input[type='email']{
+input[type='email'],
+input[type='password']{
   display:block ;
   width: 400px;
   padding: 6px 12px;
@@ -50,5 +51,6 @@ button{
   background-color: rgb(55, 52, 52);
   
 }
+   
 
 
