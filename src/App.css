@@ -38,7 +38,7 @@ input[type='password']{
   background-color: white;
   border:1px solid #ccc;
   border-radius: 4px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 
 }
 button{
@@ -51,6 +51,11 @@ button{
   background-color: rgb(55, 52, 52);
   
 }
+.form-control{
+  margin-bottom: 20px;
+}
    
-
+.error{
+  color: rgb(181, 33, 33);
+}
 
